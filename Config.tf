@@ -1,6 +1,6 @@
 provider "azurerm" {
     version = "~>1.32.0"
-    user_msi = true
+    use_msi = true
     subscription_id = "subscription_id"
     tenant_id = "tenant_id"
 }
